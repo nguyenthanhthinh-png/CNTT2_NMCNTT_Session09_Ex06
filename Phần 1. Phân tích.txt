@@ -1,0 +1,16 @@
+Phần 1. Phân tích
+Hai sai lầm của Nam:
+1. Dùng Word (.docx) để lưu tài liệu dự án trên GitHub khiến nội dung khó xem trực tiếp và khó so sánh các thay đổi.
+2. Không nhận ra Git Diff hoạt động hiệu quả với văn bản thuần; file Word là định dạng nhị phân nên dễ gây khó khăn khi hợp nhất thay đổi.
+Ưu điểm của Markdown (.md):
+- Nhẹ: Chỉ lưu văn bản và ký hiệu định dạng.
+- Dễ đọc: GitHub hiển thị trực tiếp nội dung Markdown.
+- Dễ quản lý phiên bản: Git Diff có thể chỉ rõ dòng nào thay đổi.
+- Ít rủi ro hư hỏng hơn: Mất một byte thường chỉ làm sai một phần nội dung, không nhất thiết khiến toàn bộ file không mở được.
+Lưu ý: Không nên khẳng định mọi file Word sẽ hỏng hoàn toàn khi mất một byte; mức độ hư hỏng phụ thuộc vị trí dữ liệu bị mất.
+Phần 2. Chuyển Word sang Markdown bằng StackEdit
+1. Mở StackEdit.
+2. Sao chép nội dung từ Word và dán vào trình soạn thảo.
+3. Kiểm tra tiêu đề bằng #, chữ đậm bằng **...** và danh sách bằng -.
+4. Chọn chức năng xuất hoặc tải xuống Markdown (.md) nếu có.
+5. Đưa file .md lên GitHub để cả nhóm xem và theo dõi thay đổi.
